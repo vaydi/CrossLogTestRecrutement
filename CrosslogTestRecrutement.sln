@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosslog.TestRecrutement.Library", "Crosslog.TestRecrutement.Library\Crosslog.TestRecrutement.Library.csproj", "{295A6D75-CB9F-4BF2-A2FE-7659E1783A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosslog.TestRecrutement.WebSite", "Crosslog.TestRecrutement.WebSite\Crosslog.TestRecrutement.WebSite.csproj", "{D07C6E80-1CF3-4A8A-B6C5-3EE4A2186905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosslog.TestRecrutement.DataAccess", "Crosslog.TestRecrutement.DataAccess\Crosslog.TestRecrutement.DataAccess.csproj", "{E3209B82-CE61-404C-9868-1D3E0CBFB25F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{9A52D278-F02C-493D-8DDE-11A836856FC1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Crosslog.TestRecrutement.Database", "Crosslog.TestRecrutement.Database\Crosslog.TestRecrutement.Database.sqlproj", "{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{295A6D75-CB9F-4BF2-A2FE-7659E1783A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295A6D75-CB9F-4BF2-A2FE-7659E1783A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295A6D75-CB9F-4BF2-A2FE-7659E1783A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295A6D75-CB9F-4BF2-A2FE-7659E1783A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07C6E80-1CF3-4A8A-B6C5-3EE4A2186905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07C6E80-1CF3-4A8A-B6C5-3EE4A2186905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07C6E80-1CF3-4A8A-B6C5-3EE4A2186905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07C6E80-1CF3-4A8A-B6C5-3EE4A2186905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3209B82-CE61-404C-9868-1D3E0CBFB25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3209B82-CE61-404C-9868-1D3E0CBFB25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3209B82-CE61-404C-9868-1D3E0CBFB25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3209B82-CE61-404C-9868-1D3E0CBFB25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B5BE38F-9950-4145-A3EF-BAFC929DCF92} = {9A52D278-F02C-493D-8DDE-11A836856FC1}
+	EndGlobalSection
+EndGlobal
